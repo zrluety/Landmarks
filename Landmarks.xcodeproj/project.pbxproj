@@ -19,6 +19,7 @@
 		2B6B3E3A27765B1F00DB34D8 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B6B3E3927765B1F00DB34D8 /* landmarkData.json */; };
 		2B6B3E3C27765B5800DB34D8 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B3E3B27765B5800DB34D8 /* Landmark.swift */; };
 		2B6B3E3E27765D9300DB34D8 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B3E3D27765D9300DB34D8 /* ModelData.swift */; };
+		2BEC931E2776617800D90958 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEC931D2776617800D90958 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2B6B3E3927765B1F00DB34D8 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		2B6B3E3B27765B5800DB34D8 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		2B6B3E3D27765D9300DB34D8 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		2BEC931D2776617800D90958 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		2B6B3E3F27765FC400DB34D8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2BEC931D2776617800D90958 /* LandmarkRow.swift */,
 				2B0C6583277585BC005F1EB3 /* ContentView.swift */,
 				2B6B3E35277653DE00DB34D8 /* CircleImage.swift */,
 				2B6B3E37277655A200DB34D8 /* MapView.swift */,
@@ -302,6 +305,7 @@
 				2B0C6582277585BC005F1EB3 /* LandmarksApp.swift in Sources */,
 				2B6B3E36277653DE00DB34D8 /* CircleImage.swift in Sources */,
 				2B6B3E3C27765B5800DB34D8 /* Landmark.swift in Sources */,
+				2BEC931E2776617800D90958 /* LandmarkRow.swift in Sources */,
 				2B6B3E3E27765D9300DB34D8 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
